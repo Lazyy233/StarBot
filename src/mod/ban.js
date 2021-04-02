@@ -8,10 +8,7 @@ module.exports = {
 
       message.delete()
 
-      
-   if(!message.member.hasPermission("BAN_MEMBERS")) {
-      return message.channel.send(`**${message.author.username}**, You do not have enough permission to use this command`)
-    }
+
 
             const user = message.mentions.users.first();
 
